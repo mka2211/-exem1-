@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+}
+.q1{
+    
+    display: flex;
+    justify-content: center;
+    gap: 400px;
+    color: white;
+    padding: 16px;
+    max-width: 1200px;
+    justify-content: space-between;
+    margin: auto;
+
+}
+.q2{
+    display: flex;
+    gap: 25px;
+}
+.q4{
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+.q22{
+background-color: #673A44;
+
+}
