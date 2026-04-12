@@ -784,11 +784,18 @@
     color: #000;
 }
 
+.a1x{
+    margin-left: 140px;
+}
 @media (max-width: 510px) {
     .wrap {
         padding: 30px 15px;
     }
-
+ .a1x{
+    width: 100%;
+    position: relative;
+    left: -140px;
+ }
     .topz {
         flex-direction: column-reverse;
         gap: 20px;
