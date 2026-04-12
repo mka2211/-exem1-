@@ -541,4 +541,166 @@
     .n1{
         display: none;
     }
+   .con {
+        padding: 40px 20px;
+    }
+
+    .hdr {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+        margin-bottom: 40px;
+    }
+
+    .txt {
+        text-align: left;
+    }
+
+    .ttl {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .dsc {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    .crd {
+        width: 100%;
+    }
+
+    .grd {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, auto);
+        gap: 40px;
+    }
+
+    .itm {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .inf {
+        width: 100%;
+    }
+
+    .sub {
+        font-size: 20px;
+        margin-bottom: 8px;
+       
+    }
+
+    .det {
+        font-size: 14px;
+    }
+
+    .ico {
+        width: 50px;
+        height: 50px;
+    }
+    .saa{
+        position: relative;
+        left: -200px;
+    }
+}
+.con {
+    max-width: 1000px;
+    padding: 40px;
+}
+
+.hdr {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    margin-bottom: 60px;
+}
+
+.txt {
+    flex: 1;
+}
+
+.ttl {
+    font-size: 42px;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+    line-height: 1.1;
+}
+
+.dsc {
+    color: #666;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.crd {
+    width: 380px;
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.top {
+    background: #803d4a;
+    color: #fff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.tbl {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tbl td {
+    padding: 12px 20px;
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 12px;
+    color: #333;
+    vertical-align: top;
+}
+
+.tbl td:first-child {
+    color: #999;
+    width: 40%;
+}
+
+.grd {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px 60px;
+}
+
+.itm {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.ico {
+    width: 40px;
+    height: 40px;
+}
+
+.sub {
+    font-size: 22px;
+    margin: 0 0 10px 0;
+    color: #000;
+}
+
+.det {
+    font-size: 14px;
+    color: #777;
+    margin: 0;
+    line-height: 1.4;
+}
+.saa{
+    margin-left: 220px;
 }
