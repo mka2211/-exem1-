@@ -787,6 +787,71 @@
 .a1x{
     margin-left: 140px;
 }
+.box10 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+
+.lay20 {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.pic30 {
+    flex: 1;
+}
+
+.img40 {
+    width: 100%;
+    display: block;
+}
+
+.inf50 {
+    flex: 1;
+}
+
+.sec60 {
+    margin-bottom: 40px;
+    width: 400px;
+}
+
+.ttl70 {
+    font-size: 48px;
+    color: #310d14;
+    margin: 0 0 20px 0;
+    line-height: 1.1;
+    width:600px;
+}
+
+.txt80 {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    margin: 0;
+}
+
+
+    @media (max-width: 510px) {
+    .lay20 {
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    .con10 {
+        padding: 30px 15px;
+    }
+
+    .ttl70 {
+        font-size: 38px;
+        width: 300px;
+    }
+
+    .txt50 {
+        text-align: left;
+    }
+}
 @media (max-width: 510px) {
     .wrap {
         padding: 30px 15px;
